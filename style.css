@@ -1,3 +1,65 @@
-ol.menu{
-    align-content: center;
+div{
+    border: 5px solid black;
+    margin: 10px;
 }
+
+.main-page{
+    display: flex;
+    margin: 20px;
+}
+
+.left-column{
+    width: calc(20% - 40px);
+}
+
+.menu{
+    height: 480px;
+}
+
+.center-column{
+    width: calc(30% - 40px);
+}
+
+.page-photo{
+    height: 200px;
+}
+.page-photo .photo{
+    height: calc(70% - 20px - 2 * 5px);
+}
+.page-photo .edit-buttons{
+    display: flex;
+    height: calc(30% - 20px - 2 * 5px);
+}
+.page-photo .edit-profile{
+    height: calc(100% - 20px - 2 * 5px);
+    width: 80%
+}
+.page-photo .stats{
+    height: calc(100% - 20px - 2 * 5px);
+    width: 20%
+}
+.gifts{
+    display: block;
+    height: 100px;
+    width: calc(100% - 20px - 2 * 5px);
+}
+
+.right-column{
+    width: calc(50% - 40px);
+}
+
+.right-column > {
+    width: calc(100% - 20px - 2 * 5px);
+}
+.about{
+    height: 100px;
+}
+.add-news{
+    height: 30px;
+}
+.wall{
+    height: calc(100% - 100px - 30px - 3 * 20px - 2 * 5px);
+}
+
+
+
