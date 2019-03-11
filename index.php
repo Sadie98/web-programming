@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <link href="style.css" rel="stylesheet">
+    <link href="adaptive.css" rel="stylesheet">
 </head>
 <body>
 <div class="main-page">

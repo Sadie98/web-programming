@@ -1,0 +1,26 @@
+@media screen and (max-width: 1024px) {
+    .main-page{
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .center-column{
+        display: none;
+    }
+    .left-column{
+        width: calc(30% - 40px);
+    }
+    .right-column{
+        width: calc(70% - 40px);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .left-column{
+        width: calc(100% - 20px);
+    }
+    .right-column{
+        display: none;
+    }
+}
