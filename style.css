@@ -5,7 +5,7 @@ div{
 
 .main-page{
     display: flex;
-    margin: 20px;
+    margin: 20px 100px;
 }
 
 .left-column{
@@ -61,5 +61,20 @@ div{
     height: calc(100% - 100px - 30px - 3 * 20px - 2 * 5px);
 }
 
+@media only screen and (max-width: 1024px) {
+    .main-page{
+        margin: 20px;
+    }
+}
 
-
+@media only screen and (max-width: 769px) {
+    .center-column{
+        display: none;
+    }
+    .left-column{
+        width: calc(30% - 40px);
+    }
+    .right-column{
+        width: calc(70% - 40px);
+    }
+}
